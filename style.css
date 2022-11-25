@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Cabin", sans-serif;
+  text-align: center;
+}
+
+.first--container {
+  background-image: url("images/london.jpeg");
+  background-size: cover;
+  height: 500px;
+  margin-top: 0;
+  text-align: center;
+  color: whitesmoke;
+  text-shadow: 0 0 7px black;
+  font-size: bolder;
+}
+
+.heading1 {
+  padding-top: 120px;
+  padding-bottom: 20px;
+}
+
+/* second container */
+
+.second--container {
+  padding-top: 40px;
+  background-color: lightgray;
+  color: rgba(29, 53, 87, 1);
+}
+
+.sec-con-cons {
+  /* border: 5px solid red; */
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.sub-con {
+  /* border: 5px solid blue; */
+  padding: 20px;
+}
+
+.sec-con-img {
+  border-radius: 50%;
+}
+
+.sec-con-head {
+  margin-top: 10px;
+}
+
+/* third container */
+
+.third--container {
+  background-color: white;
+  color: #1d3557;
+}
+
+.inner-third-con {
+  /* border: 5px solid red; */
+  width: 400px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  padding: 20px;
+  background-color: #56a1cf;
+  /* background-color: lightgray; */
+  border-bottom: 5px solid #1d3557;
+  margin-bottom: 40px;
+  border-radius: 20px;
+}
+
+/* .third-con-img {
+  border: 5px solid blue;
+}
+*/
+
+.third-con-content {
+  margin-left: 5px;
+  text-align: center;
+}
+
+.self--img {
+  border-radius: 10px;
+}
